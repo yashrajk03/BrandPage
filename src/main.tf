@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0c55b159cbfafe1f0"  # Amazon Linux 2 AMI for us-east-1; verify for your region
+  ami           = "ami-08b5b3a93ed654d19"  # Amazon Linux 2 AMI for us-east-1; verify for your region
   instance_type = "t2.micro"               # Free-tier eligible
   tags = {
     Name = "Terraform-Jenkins-Example"
