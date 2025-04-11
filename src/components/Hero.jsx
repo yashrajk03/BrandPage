@@ -1,5 +1,5 @@
 import './Hero.css';
-import shoe from './shoe.jpg'
+
 const Hero = () => {
     return (
       <main className="hero">
@@ -16,7 +16,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-image">
-            <img src={shoe} alt="shoe" />
+            <img src="/shoe.jpg" alt="shoe" />
         </div>
       </main>
     );
